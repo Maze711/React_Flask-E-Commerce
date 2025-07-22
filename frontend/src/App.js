@@ -1,13 +1,10 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import HomePage from './pages/home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>E-Commerce Store</h1>
-        <p>Welcome to our online store!</p>
-      </header>
-    </div>
+    <HomePage />
   );
 }
 
