@@ -1,9 +1,9 @@
-import BasicExample from '../components/HeaderComp';
+import NavbarComp from '../components/HeaderComp.jsx';
 
 function HomePage() {
   return (
     <div className="App">
-      <BasicExample />
+      <NavbarComp />
       <header className="App-header">
         <h1>E-Commerce Store</h1>
         <p>Welcome to our online store!</p>
