@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import {
-  Navbar,
-  Nav,
   Container,
   Row,
   Col,
   Card,
   Button,
+  Nav,
 } from "react-bootstrap";
+import NavbarComp from './HeaderComp';
 
 const HomePage = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -30,20 +30,7 @@ const HomePage = () => {
   return (
     <div style={{ overflowX: "hidden", margin: 0, padding: 0 }}>
       {/* HEADER */}
-      <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
-        <Container>
-          <Navbar.Brand href="#home">Your Brand</Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbar" />
-          <Navbar.Collapse id="navbar">
-            <Nav className="ms-auto">
-              <Nav.Link href="#intro">Intro</Nav.Link>
-              <Nav.Link href="#gallery">Gallery</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+      <NavbarComp />
 
       {/* INTRO SECTION */}
       <section
