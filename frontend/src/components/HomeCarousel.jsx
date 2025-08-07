@@ -208,6 +208,7 @@ const HomePage = () => {
 
       {/* FOOTER */}
       <footer
+        id="contact"
         className="bg-dark text-white d-flex align-items-center"
         style={{ 
           minHeight: "100vh", 

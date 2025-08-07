@@ -6,7 +6,7 @@ function NavbarComp() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" fixed="top" className="py-3">
       <Container>
-        <Navbar.Brand className="fs-4" href="#home">Your Brand</Navbar.Brand>
+        <Navbar.Brand className="fs-3 fw-bold" href="#home">MAZE PHOTOGRAPHY</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar" />
         <Navbar.Collapse id="navbar">
           <Nav className="ms-auto">
